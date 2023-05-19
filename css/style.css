@@ -101,6 +101,71 @@ body {
 }
 
 #cruz, #btn {
-    background-color: green;
+    /* background-color: green; */
     width: 140px;
 }
+
+#cruz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursor {
+    /* background-color: orange; */
+    width: 90px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#cr-vertical {
+    background-color: rgb(55, 53, 53);
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    border-radius: 5px;
+}
+
+#cr-horizontal {
+    background-color: rgb(55, 53, 53);
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    border-radius: 5px;
+}
+
+#btn-ab {
+    /* background-color: blueviolet; */
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-30deg);
+    border: 1px solid rgb(176, 176, 7);
+    border-radius: 20px;
+    padding: 1px;
+}
+
+#btn-A, #btn-B {
+    background-color: rgb(129, 15, 15);
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    transform: rotate(30deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-A:hover, #btn-B:hover {
+    background-color: black;
+} 
+
+#ps-med:hover {
+    background-image: url('../img/nintendo-logo-png-transparent.png');
+    background-size: cover;
+}
+
