@@ -169,3 +169,8 @@ body {
     background-size: cover;
 }
 
+#texto {
+    font-family: 'Shadows Into Light';
+    font-size: large;
+}
+
